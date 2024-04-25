@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+body{
+    font-family: "Space Grotesk", sans-serif;
+}
+header{
+    font-family: "Montserrat", sans-serif;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.logo{
+    display: flex;
+    color: #1A1E42;
+    font-size: 30px;
+    font-weight: 600;
+    align-items: center;
+}
+.nav_button{
+    height: 40px;
+}
+.container_1{
+    background-color: #FFFFFF;
+    padding: 40px 16px;
+    display: flex;
+    flex-direction: column;
+  
+}
+.container_1 h3{
+    font-size: 48px;  
+}
+
+
+.text-bluepart {
+    color: #1A1E42; 
+}
+.text-orangepart {
+    color: #F7931A; 
+}
+.container1_maintext{
+    margin-top: 24px;
+    font-size: 18px;
+    color: #1A1E42;
+    opacity: 0.8;
+}
+
+.container1_unlock_wallet{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 24px;
+    background-color: #F7931A;
+    border: 0;
+    border-radius: 4px;
+    color: #FFFFFF;
+    width: 100%;
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+.text_near_grid_wallets{
+    color: #98A2B3;
+    font-size: 16px;
+
+}
+.container1_grid_wallets{
+    display: grid;
+    grid-template-columns: repeat(2, 170px); 
+    gap: 18px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+  }
+@media screen and (min-width: 800px) {
+    .container1_grid_wallets {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+.grid_2_stock{
+    padding: 40px 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 38px;
+
+
+  }
+@media screen and (min-width: 800px) {
+    .grid_2_stock {
+      grid-template-columns: repeat(6, 1fr);
+
+    }
+  }
+
+.container_2{
+    background-color: #1A1E42;
+    padding: 60px 16px;
+}
+.line{
+    width: 48px;
+    border: none;
+    border-top: 2px solid #F7931A;
+}
+.container2_headtext{
+    margin-top: 12px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    font-size: 44px;
+}
+.container2_maintext{
+    color: #D0D5DD;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+.card{
+    background-color: #2A2D51;
+    border-radius: 8px;
+    padding: 32px;
+    height: 294px;
+}
+.container2_grid_1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+
+}
+.container2_grid_1 h5 {
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+.container2_grid_1 p {
+    color: #D0D5DD;
+}
+.container2_grid_1 img{
+    margin-bottom: 24px;
+}
+  
+.container_3{
+    padding-top: 60px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.container_3 h4{
+    padding-top: 12px;
+    padding-bottom: 32px;
+    font-size: 44px;
+    white-space: pre-line;
+    color: #1A1E42;
+}
+.container_3 p{
+    color: #1A1E42;
+    opacity: 0.8;
+    font-size: 18px;
+}
+#upper_text{
+    padding-bottom: 30px;
+}
+.container_3 a {
+    display: block;
+    color: #F7931A;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 48px;
+
+}
+#lower_text{
+    padding-bottom: 16px;}
+#koshelek2{
+    margin-bottom: 60px;
+}
+.container2_Unlock_wallet_card{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 24px;
+    background-color: #F7931A;
+    border: 0;
+    border-radius: 4px;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.number{
+    height: 48px;
+    background-color: #2A2D51;
+    width: 48px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.container_4{
+    background-color: #1A1E42;
+    padding: 60px 16px; 
+}
+.container_4 h4{
+    color: #FFFFFF;
+    font-size: 44px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    }
+.container4_headtext{
+        margin-top: 12px;
+        margin-bottom: 16px;
+        color: #FFFFFF;
+        font-size: 44px;
+}
+.container_4 span{
+    color: #D0D5DD;
+    font-size: 18px;
+}
+.container_4 p{
+    color: #D0D5DD;
+    font-size: 16px;
+}
+.container4_grid_1 h5{
+    color: #FFFFFF;
+    font-size: 22px;
+    padding-bottom: 12px;
+ 
+
+}
+.container2_headtext{
+    margin-top: 12px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    font-size: 44px;
+}
+.container4_Unlock_wallet_card{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 24px;
+    background-color: #F7931A;
+    border: 0;
+    border-radius: 4px;
+    color: #FFFFFF;
+    width: 100%;
+}
+.container4_grid_1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+
+}
+.container4_grid_1 h5 {
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+.container4_grid_1 p {
+    color: #D0D5DD;
+}
+.container4_grid_1 img{
+    margin-bottom: 24px;
+}
+.container_5 {
+    padding: 60px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAFB;
+  }
+  
+  .container_5 h4 {
+    color: #1A1E42;
+    font-size: 44px;
+  }
+  .stars_cards {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+  
+  }
+  
+  .star_card {
+    height: 530.5px;
+    width: 320px;
+    min-width: 320px;
+    background-color: #FFFFFF;
+    margin-right: 20px;
+    overflow: hidden;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    border-radius: 8px;
+  }
+.container_5 span{
+    font-size: 18px;
+    opacity: 0.8;
+    color: #1A1E42;
+    margin-top: 16px;
+    text-align: center;
+
+
+}
+
+.img_stars{
+    margin-top: 24px;
+    margin-left: 24px;
+
+}
+
+.star_card p{
+    color: #667085;
+    font-size: 18px;
+    margin: 24px 24px;
+}
+.star_card h6{
+color: #1A1E42;
+margin-left: 24px;
+font-size: 18px;
+margin-top: 50px;
+}
+
+.container5_button{
+    display: flex;
+    align-items: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    padding: 10px 24px;
+    background-color: #00B67A;
+    border: 0;
+    border-radius: 4px;
+    color: #FFFFFF;
+    width: 100%;
+    font-weight: bold;
+}
+.container5_button img{
+    margin-left: 10px;
+}
+.container_6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding:60px 16px;
+}
+.container_6 h4 {
+    color: #1A1E42;
+    font-size: 44px;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+.container_6 span{
+    font-size: 18px;
+    opacity: 0.8;
+    color: #1A1E42;
+    margin-top: 16px;
+    text-align: center;
+
+
+}
+.container_6_grid {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    
+  }
+  
+  .container6_name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .container_6_avatar {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .container6_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%; 
+  }
+  
+  .container6_time {
+    text-align: right;
+    margin-left: auto;
+  }
+.container6_info p{
+color: #98A2B3;
+font-size: 16px;
+}
+.container_6_card a{
+    color: #1A1E42;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.container_6_photo{ 
+    border-radius: 5px;
+}
+.container_6_card{
+    max-width: 360px;
+}
+
+.flex_url_arrow h6{
+    display: flex;
+    font-size: 22px;
+    color: #1A1E42;
+
+}
+.flex_url_arrow{
+display: flex;   
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container_6_button{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 24px;
+    background-color: #F7931A;
+    border: 0;
+    border-radius: 4px;
+    color: #FFFFFF;
+    width: 100%;
+
+}
