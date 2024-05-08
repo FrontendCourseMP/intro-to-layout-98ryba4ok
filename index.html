@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ReWallet</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,295 +14,538 @@
     />
   </head>
   <body>
-    <header>
-      <h1 class="logo">ReWallet</h1>
-      <img class="nav_button" src="photo/nav_button.svg" alt="nav_button" />
-    </header>
-    <main>
-      <section class="container_1">
-        <h3>
-          <span class="text-bluepart">Regain access to your </span
-          ><span class="text-orangepart">crypto wallet</span>
-        </h3>
-        <p class="container1_maintext">
-          You've lost access to your crypto wallet? Then you've come to the
-          right place. We can help you recover your wallet - quickly, easily and
-          on a pure success basis. You don't pay anything until you have access
-          to your wallet again.
-        </p>
-        <button class="container1_unlock_wallet">Unlock your Wallet now</button>
-        <p class="text_near_grid_wallets">Our most recovered wallets:</p>
-        <div class="container1_grid_wallets">
-          <img src="photo/ledger_nano_s.svg" alt="ledger_nano_s" />
-          <img src="photo/tenzor_wallet.svg" alt="tenzor_wallet" />
-          <img src="photo/blockchain.com.svg" alt="blockchain.com" />
-          <img src="photo/electrum_wallet.svg" alt="electrum_wallet" />
-          <img src="photo/multibit_wallet.svg" alt="multibit_wallet" />
-          <img src="photo/bitcoine_core.svg" alt="bitcoine_core" />
+    <div class="wrapper">
+      <header>
+        <h1 class="logo">ReWallet</h1>
+        <nav class="nav_hidden">
+          <a href=""> Why ReWallet? </a>
+          <a href="">About us</a>
+          <a href="">How does it work</a>
+          <a href="">FAQ</a>
+          <a href="">Wallets</a>
+          <a href="">Blog</a>
+        </nav>
+        <div class="header_right">
+          <div class="language">
+            <img src="photo/language_icon.svg" alt="" />
+            <p>English</p>
+          </div>
+          <button>Start now</button>
         </div>
-        <p class="text_near_grid_wallets">and many others.</p>
-      </section>
-
-      <img src="photo/koshelek.svg" alt="koshelek" />
-      <div class="grid_2_stock">
-        <img src="photo/finazern.net.svg" alt="finazern.net" />
-        <img src="photo/btc_echo.svg" alt="btc_echo" />
-        <img src="photo/finanzefluss.svg" alt="finanzefluss" />
-        <img src="photo/cointelegraph.svg" alt="cointelegraph" />
-        <img src="photo/blocktrainer.svg" alt="blocktrainer" />
-        <img src="photo/bitcointogo.svg" alt="bitcointogo" />
-      </div>
-      <section class="container_2">
-        <hr class="line" />
-        <h4 class="container2_headtext">Why ReWallet?</h4>
-        <span class="container2_maintext">
-          We had the same problem as you. After countless all-nighters and a lot
-          of lost nerves, we were finally able to recover our wallets. Since
-          then, we can offer our experience, know-how and toolkit to help you
-          recover your wallets.
-        </span>
-        <div class="container2_grid_1">
-          <div class="card">
-            <img src="photo/Icon1.svg" alt="Шестренка" />
-            <h5>Toolkit</h5>
-            <p>
-              Based on our own experience and from work with our clients, we
-              have developed our own toolkit that enables us to recover crypto
-              wallets in a few steps.
+        <img class="nav_button" src="photo/nav_button.svg" alt="nav_button" />
+      </header>
+      <main>
+        <section class="container_first">
+          <div class="fix_centered">
+          <div class="container_1">
+            <h3>
+              <span class="text-bluepart">Regain access to your </span
+              ><span class="text-orangepart">crypto wallet</span>
+            </h3>
+            <p class="container1_maintext">
+              You've lost access to your crypto wallet? Then you've come to the
+              right place. We can help you recover your wallet - quickly, easily
+              and on a pure success basis. You don't pay anything until you have
+              access to your wallet again.
             </p>
+            <button class="container1_unlock_wallet">
+              Unlock your Wallet now
+            </button>
+            <p class="text_near_grid_wallets">Our most recovered wallets:</p>
+            <div class="container1_grid_wallets">
+              <img src="photo/ledger_nano_s.svg" alt="ledger_nano_s" />
+              <img src="photo/tenzor_wallet.svg" alt="tenzor_wallet" />
+              <img src="photo/blockchain.com.svg" alt="blockchain.com" />
+              <img src="photo/electrum_wallet.svg" alt="electrum_wallet" />
+              <img src="photo/multibit_wallet.svg" alt="multibit_wallet" />
+              <img src="photo/bitcoine_core.svg" alt="bitcoine_core" />
+            </div>
+            <p class="text_near_grid_wallets">and many others.</p>
           </div>
-          <div class="card">
-            <img src="photo/Icon2.svg" alt="Портфель" />
-            <h5>Experience</h5>
-            <p>
-              Starting with the wallets of our friends and people we know, we
-              have since helped numerous clients recover their wallets.
-            </p>
-          </div>
-          <div class="card">
-            <img src="photo/Icon3.svg" alt="Shield" />
-            <h5>Trust</h5>
-            <p>
-              We know how much trust it takes to send a stranger on the internet
-              details about your wallet. We use a legal contract based on law,
-              which protects you comprehensively.
-            </p>
+          <div class="img_right_1">
+            <img src="photo/koshelek.svg" alt="koshelek" />
           </div>
         </div>
-        <button class="container2_Unlock_wallet_card">
-          Unlock your Wallet now
-        </button>
-      </section>
-
-      <section class="container_3">
-        <hr class="line" />
-        <h4>About us: Our Story and Mission</h4>
-        <p id="upper_text">
-          We explored various aspects of cryptocurrencies, including using
-          Bitcoin for payments, mining, and trading with different strategies.
-          We also considered starting a company and extensively researched
-          Ethereum and smart contracts. However, we struggled to find a viable
-          business model. Concerns about government intervention and the
-          potential ban of Bitcoin always lingered. As a result, we pursued
-          other entrepreneurial ventures and found some validation when the ICO
-          wave ended with a crash.
-        </p>
-        <p id="lower_text">
-          The positive developments in 2020 took us by surprise. The influx of
-          capital from established institutions, including the financial
-          industry, made it increasingly challenging for the government to ban
-          Bitcoin. However, we acknowledge that they may still attempt to do so.
-          Recently, when we attempted to transfer our old, now more valuable
-          Bitcoin and Ether to a new wallet, we discovered that we had lost
-          access to them completely. We were unable to locate our wallets in the
-          first place.
-        </p>
-        <a href="#"> <img src="photo/buttonssilka.svg" alt="strelka" /></a>
-      </section>
-      <img id="koshelek2" src="photo/koshelek_2.svg" alt="koshelek_2" />
-      <section class="container_4">
-        <hr class="line" />
-        <h4>Our process</h4>
-        <span>
-          Just fill out our questionnaire and we will see if we can help you.
-        </span>
-        <div class="container4_grid_1">
-          <div>
-            <p class="number">01</p>
-            <h5>Fill out our questionnaire</h5>
-            <p>
-              By clicking on "Start now" you can easily access our
-              questionnaire, which we use to collect the first important
-              information.
-            </p>
-          </div>
-          <div>
-            <p class="number">02</p>
-            <h5>We check your request</h5>
-            <p>
-              Based on your information, we will check whether we can help you.
-              We promise that we will get back to you with our assessment within
-              24 hours.
-            </p>
-          </div>
-          <div>
-            <p class="number">03</p>
-            <h5>We send you the contract</h5>
-            <p>
-              If we can help you, we will send you our contract for your legal
-              protection. You then send us the other information we need for our
-              work.
-            </p>
-          </div>
-          <div>
-            <p class="number">04</p>
-            <h5>We get to work</h5>
-            <p>
-              Once we have all the required information, we will start
-              immediately and can restore your wallet within 48-72h, in the best
-              case.
-            </p>
-          </div>
+        </section>
+        <div class="grid_2_stock">
+          <img src="photo/finazern.net.svg" alt="finazern.net" />
+          <img src="photo/btc_echo.svg" alt="btc_echo" />
+          <img src="photo/finanzefluss.svg" alt="finanzefluss" />
+          <img src="photo/cointelegraph.svg" alt="cointelegraph" />
+          <img src="photo/blocktrainer.svg" alt="blocktrainer" />
+          <img src="photo/bitcointogo.svg" alt="bitcointogo" />
         </div>
-
-        <hr class="line" />
-        <h4 class="container4_headtext">Our promise to you</h4>
-        <div class="container4_grid_1">
-          <div class="card">
-            <img src="photo/Icon4.svg" alt="Шестренка" />
-            <h5>Speed</h5>
-            <p>
-              We will give you feedback within 24 hours following your request.
-              If we can help you, we usually have your wallet restored after a
-              couple of days.
-            </p>
+        <section class="container_2">
+          <hr class="line" />
+          <h4 class="container2_headtext">Why ReWallet?</h4>
+          <div class="cont2_textwrapper">
+            <span class="container2_maintext">
+              We had the same problem as you. After countless all-nighters and a
+              lot of lost nerves, we were finally able to recover our wallets.
+              Since then, we can offer our experience, know-how and toolkit to
+              help you recover your wallets.
+            </span>
           </div>
-          <div class="card">
-            <img src="photo/Icons5.svg" alt="Портфель" />
-            <h5>Success-based commission</h5>
-            <p>
-              You are guaranteed not to pay anything until you have access to
-              your wallet again. In case of a successful recovery, we charge a
-              commission of 20% of your wallet.
-            </p>
-          </div>
-          <div class="card">
-            <img src="photo/Icon6.svg" alt="Shield" />
-            <h5>Service</h5>
-            <p>
-              You can always call or write us to talk about your problems with
-              your wallet.
-            </p>
-          </div>
-        </div>
-        <button class="container4_Unlock_wallet_card">
-          Unlock your Wallet now
-        </button>
-      </section>
-      <section class="container_5">
-        <hr class="line" />
-        <h4>Testimonials</h4>
-        <span
-          >Don't take our word for it. See what customers are saying about
-          us.</span
-        >
-        <div class="stars_cards">
-          <div class="star_card">
-            <img class="img_stars" src="photo/stars-5.svg" alt="5stars" />
-            <p>
-              By a stupid mistake, I wrote down only 11 of 12 words of my seed
-              phrase. Desperately I tried it myself but gave up after a short
-              time. By chance, I came across ReWallet and asked if it would be
-              possible to restore access to my wallet. Shorthand later we
-              arranged a meeting in Berlin for the delivery of the seed phrase.
-              About 4 weeks later I got the email that they have restored the
-              access. Guys, you are great, we need people like you.
-            </p>
-            <h6>Kai Olaf W.</h6>
-          </div>
-          <div class="star_card">
-            <img class="img_stars" src="photo/stars-5.svg" alt="5stars" />
-            <p>
-              I had pretty much written off my lost wallet until I came across
-              ReWallet in forums. The good reviews prompted me to make an
-              inquiry on the ReWallet site. At first, I was skeptical. But that
-              was quickly dispelled. Promptly came a response, and it was probed
-              whether a recovery of my wallet possible. After about 1 week came
-              the positive news. Then everything went quickly and I was back in
-              possession of my Wallet.
-            </p>
-            <h6>Daniel</h6>
-          </div>
-        </div>
-        <button class="container5_button">
-          See our Reviews on
-          <img src="photo/button_frame.svg" alt="button_frame" />
-        </button>
-      </section>
-
-      <section class="container_6">
-        <hr class="line" />
-        <h4>ReWallet blog</h4>
-        <span
-          >The latest industry news, interviews, technologies, and
-          resources.</span
-        >
-        <div class="container_6_grid">
-          <div class="container_6_card">
-          <img class="container_6_photo" src="photo/section_6_1.svg" alt="photo">
-          <div class="container6_name">
-            <img class="container_6_avatar" src="photo/section_6_avatar.svg" alt="ava">
-            <div class="container6_info">
-              <p>Bruno Krauss</p>
-              <p class="container6_time">28/04/2023</p>
+          <div class="container2_grid_1">
+            <div class="card">
+              <img src="photo/Icon1.svg" alt="Шестренка" />
+              <h5>Toolkit</h5>
+              <p>
+                Based on our own experience and from work with our clients, we
+                have developed our own toolkit that enables us to recover crypto
+                wallets in a few steps.
+              </p>
+            </div>
+            <div class="card">
+              <img src="photo/Icon2.svg" alt="Портфель" />
+              <h5>Experience</h5>
+              <p>
+                Starting with the wallets of our friends and people we know, we
+                have since helped numerous clients recover their wallets.
+              </p>
+            </div>
+            <div class="card">
+              <img src="photo/Icon3.svg" alt="Shield" />
+              <h5>Trust</h5>
+              <p>
+                We know how much trust it takes to send a stranger on the
+                internet details about your wallet. We use a legal contract
+                based on law, which protects you comprehensively.
+              </p>
             </div>
           </div>
-          <div class="flex_url_arrow">
-            <h6 >How to Recover Your 
-              Ethereum Presale Wallet: Tips To
-               Recover Your Presale ETH</h6>
-               <a href="#"><img class="arrow" src="photo/Icon_arrow.svg" alt=""></a>
+          <div class="cont_2_button_container">
+            <button class="container2_Unlock_wallet_card">
+              Unlock your Wallet now
+            </button>
           </div>
-        </div>
-
-        <div class="container_6_card">
-          <img class="container_6_photo" src="photo/section_6_2.svg" alt="photo">
-          <div class="container6_name">
-            <img class="container_6_avatar" src="photo/section_6_avatar.svg" alt="ava">
-            <div class="container6_info">
-              <p>Bruno Krauss</p>
-              <p class="container6_time">28/04/2023</p>
+        </section>
+        <section class="container_3_main">
+          <div class="container_3">
+            <hr class="line" />
+            <h4>About us: Our Story and Mission</h4>
+            <p id="upper_text">
+              We explored various aspects of cryptocurrencies, including using
+              Bitcoin for payments, mining, and trading with different
+              strategies. We also considered starting a company and extensively
+              researched Ethereum and smart contracts. However, we struggled to
+              find a viable business model. Concerns about government
+              intervention and the potential ban of Bitcoin always lingered. As
+              a result, we pursued other entrepreneurial ventures and found some
+              validation when the ICO wave ended with a crash.
+            </p>
+            <p id="lower_text">
+              The positive developments in 2020 took us by surprise. The influx
+              of capital from established institutions, including the financial
+              industry, made it increasingly challenging for the government to
+              ban Bitcoin. However, we acknowledge that they may still attempt
+              to do so. Recently, when we attempted to transfer our old, now
+              more valuable Bitcoin and Ether to a new wallet, we discovered
+              that we had lost access to them completely. We were unable to
+              locate our wallets in the first place.
+            </p>
+            <a href="#"> <img src="photo/buttonssilka.svg" alt="strelka" /></a>
+          </div>
+          <img id="koshelek2" src="photo/koshelek_2.svg" alt="koshelek_2" />
+        </section>
+        <section class="container_4">
+          <hr class="line" />
+          <h4>Our process</h4>
+          <span>
+            Just fill out our questionnaire and we will see if we can help you.
+          </span>
+          <div class="container4_grid_1">
+            <div class="container4_grid_item">
+              <p class="number">01</p>
+              <div class="container4_grid_content">
+                <h5>Fill out our questionnaire</h5>
+                <p>
+                  By clicking on "Start now" you can easily access our
+                  questionnaire, which we use to collect the first important
+                  information.
+                </p>
+              </div>
+            </div>
+            <div class="container4_grid_item">
+              <p class="number">02</p>
+              <div class="container4_grid_content">
+                <h5>We check your request</h5>
+                <p>
+                  Based on your information, we will check whether we can help
+                  you. We promise that we will get back to you with our
+                  assessment within 24 hours.
+                </p>
+              </div>
+            </div>
+            <div class="container4_grid_item">
+              <p class="number">03</p>
+              <div class="container4_grid_content">
+                <h5>We send you the contract</h5>
+                <p>
+                  If we can help you, we will send you our contract for your
+                  legal protection. You then send us the other information we
+                  need for our work.
+                </p>
+              </div>
+            </div>
+            <div class="container4_grid_item">
+              <p class="number">04</p>
+              <div class="container4_grid_content">
+                <h5>We get to work</h5>
+                <p>
+                  Once we have all the required information, we will start
+                  immediately and can restore your wallet within 48-72h, in the
+                  best case.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="flex_url_arrow">
-            <h6 >Trezor Lost Passphrase: What Is an Optional Passphrase and What to Do If You Lose It</h6>
-               <a href="#"><img class="arrow" src="photo/Icon_arrow.svg" alt=""></a>
-          </div>
-        </div>
 
-
-        <div class="container_6_card">
-          <img class="container_6_photo" src="photo/section_6_3.svg" alt="photo">
-          <div class="container6_name">
-            <img class="container_6_avatar" src="photo/section_6_avatar3.svg" alt="ava">
-            <div class="container6_info">
-              <p>Bastian Knaf</p>
-              <p class="container6_time">28/04/2023</p>
+          <hr id="line_margin" class="line" />
+          <h4 class="container4_headtext">Our promise to you</h4>
+          <div class="container4_grid_second">
+            <div class="card">
+              <img src="photo/Icon4.svg" alt="Шестренка" />
+              <h5>Speed</h5>
+              <p>
+                We will give you feedback within 24 hours following your
+                request. If we can help you, we usually have your wallet
+                restored after a couple of days.
+              </p>
+            </div>
+            <div class="card">
+              <img src="photo/Icons5.svg" alt="Портфель" />
+              <h5>Success-based commission</h5>
+              <p>
+                You are guaranteed not to pay anything until you have access to
+                your wallet again. In case of a successful recovery, we charge a
+                commission of 20% of your wallet.
+              </p>
+            </div>
+            <div class="card">
+              <img src="photo/Icon6.svg" alt="Shield" />
+              <h5>Service</h5>
+              <p>
+                You can always call or write us to talk about your problems with
+                your wallet.
+              </p>
             </div>
           </div>
-          <div class="flex_url_arrow">
-            <h6 >Lost or Invalid Trezor Seed Phrase? How to Recover Trezor Wallet & Troubleshoot Issues</h6>
-
-               <a href="#"><img class="arrow" src="photo/Icon_arrow.svg" alt=""></a>
+          <div class="container4_buttonwrapper">
+            <button class="container4_Unlock_wallet_card">
+              Unlock your Wallet now
+            </button>
+          </div>
+        </section>
+        <section class="container_5">
+          <hr class="line" />
+          <h4>Testimonials</h4>
+          <span
+            >Don't take our word for it. See what customers are saying about
+            us.</span
+          >
+          <div class="stars_cards">
+            <button class="button_left">  <img src="photo/Buttonleft.svg" alt=""></button>
+            <div id="left_starcard" class="star_card">
+              <img class="img_stars" src="photo/stars-5.svg" alt="5stars" />
+              <p>
+                By a stupid mistake, I wrote down only 11 of 12 words of my seed
+                phrase. Desperately I tried it myself but gave up after a short
+                time. By chance, I came across ReWallet and asked if it would be
+                possible to restore access to my wallet. Shorthand later we
+                arranged a meeting in Berlin for the delivery of the seed
+                phrase. About 4 weeks later I got the email that they have
+                restored the access. Guys, you are great, we need people like
+                you.
+              </p>
+              <h6>Kai Olaf W.</h6>
+            </div>
+   
+            <button class="button_right"><img src="photo/Buttonright.svg" alt="" srcset=""></button>
+            <div class="star_card">
+              <img class="img_stars" src="photo/stars-5.svg" alt="5stars" />
+              <p>
+                I had pretty much written off my lost wallet until I came across
+                ReWallet in forums. The good reviews prompted me to make an
+                inquiry on the ReWallet site. At first, I was skeptical. But
+                that was quickly dispelled. Promptly came a response, and it was
+                probed whether a recovery of my wallet possible. After about 1
+                week came the positive news. Then everything went quickly and I
+                was back in possession of my Wallet.
+              </p>
+              <h6>Daniel</h6>
+            </div>
+          </div>
+          <button class="container5_button">
+            See our Reviews on
+            <img src="photo/button_frame.svg" alt="button_frame" />
+          </button>
+        </section>
+        <section class="container_6">
+          <hr class="line" />
+          <h4>ReWallet blog</h4>
+          <span
+            >The latest industry news, interviews, technologies, and
+            resources.</span
+          >
+          <div class="container_6_grid">
+            <div class="container_6_card">
+              <img
+                class="container_6_photo"
+                src="photo/section_6_1.svg"
+                alt="photo"
+              />
+              <div class="container6_name">
+                <img
+                  class="container_6_avatar"
+                  src="photo/section_6_avatar.svg"
+                  alt="ava"
+                />
+                <div class="container6_info">
+                  <p>Bruno Krauss</p>
+                  <p class="container6_time">28/04/2023</p>
+                </div>
+              </div>
+              <div class="flex_url_arrow">
+                <h6>
+                  How to Recover Your Ethereum Presale Wallet: Tips To Recover
+                  Your Presale ETH
+                </h6>
+                <a href="#"
+                  ><img class="arrow" src="photo/Icon_arrow.svg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="container_6_card">
+              <img
+                class="container_6_photo"
+                src="photo/section_6_2.svg"
+                alt="photo"
+              />
+              <div class="container6_name">
+                <img
+                  class="container_6_avatar"
+                  src="photo/section_6_avatar.svg"
+                  alt="ava"
+                />
+                <div class="container6_info">
+                  <p>Bruno Krauss</p>
+                  <p class="container6_time">28/04/2023</p>
+                </div>
+              </div>
+              <div class="flex_url_arrow">
+                <h6>
+                  Trezor Lost Passphrase: What Is an Optional Passphrase and
+                  What to Do If You Lose It
+                </h6>
+                <a href="#"
+                  ><img class="arrow" src="photo/Icon_arrow.svg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="container_6_card">
+              <img
+                class="container_6_photo"
+                src="photo/section_6_3.svg"
+                alt="photo"
+              />
+              <div class="container6_name">
+                <img
+                  class="container_6_avatar"
+                  src="photo/section_6_avatar3.svg"
+                  alt="ava"
+                />
+                <div class="container6_info">
+                  <p>Bastian Knaf</p>
+                  <p class="container6_time">28/04/2023</p>
+                </div>
+              </div>
+              <div class="flex_url_arrow">
+                <h6>
+                  Lost or Invalid Trezor Seed Phrase? How to Recover Trezor
+                  Wallet & Troubleshoot Issues
+                </h6>
+                <a href="#"
+                  ><img class="arrow" src="photo/Icon_arrow.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <button class="container_6_button">See more articles</button>
+        </section>
+        <section class="container_7">
+          <hr class="line" />
+          <h4>ReWallet blog</h4>
+          <div class="details_container">
+            <details>
+              <summary>
+                <h6>Can you recover my wallet?</h6>
+                <img src="photo/plus.svg" alt="" />
+              </summary>
+              <p>
+                We cannot guarantee that we will be able to help you with your
+                wallet. However, we have already helped many clients with the
+                recovery of their wallets in the past. Through our word
+                libraries, our software tools and our optimized scripts, which
+                we run on high-performance hardware, we can help you find your
+                wallet password or your seedphrase. We can also help you with
+                the physical recovery of your wallet. Please send us a request
+                via the contact form and we will give you feedback if and how we
+                can help you.
+              </p>
+            </details>
+            <details>
+              <summary>
+                <h6>Which wallets do you support?</h6>
+                <img src="photo/plus.svg" alt="" />
+              </summary>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                voluptas! Voluptatem doloribus ipsum odio sequi explicabo
+                voluptate, amet ratione neque, similique illo nihil totam
+                mollitia, est necessitatibus cum aliquid odit.
+              </p>
+            </details>
+            <details>
+              <summary>
+                <h6>How do I start a request?</h6>
+                <img src="photo/plus.svg" alt="" />
+              </summary>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                voluptas! Voluptatem doloribus ipsum odio sequi explicabo
+                voluptate, amet ratione neque, similique illo nihil totam
+                mollitia, est necessitatibus cum aliquid odit.
+              </p>
+            </details>
+            <details>
+              <summary>
+                <h6>How does payment work?</h6>
+                <img src="photo/plus.svg" alt="" />
+              </summary>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                voluptas! Voluptatem doloribus ipsum odio sequi explicabo
+                voluptate, amet ratione neque, similique illo nihil totam
+                mollitia, est necessitatibus cum aliquid odit.
+              </p>
+            </details>
+            <details>
+              <summary>
+                <h6>Can I communicate with you in encrypted form?</h6>
+                <img src="photo/plus.svg" alt="" />
+              </summary>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                voluptas! Voluptatem doloribus ipsum odio sequi explicabo
+                voluptate, amet ratione neque, similique illo nihil totam
+                mollitia, est necessitatibus cum aliquid odit.
+              </p>
+            </details>
+          </div>
+        </section>
+        <section class="container_8">
+          <div class="container_8_left">
+          <hr class="line" />
+          <h4>Start now</h4>
+          <p class="no_working_margin">
+            You have lost access to your crypto wallet? Then you are in the
+            right place. Submit your request in just a few steps.
+          </p>
+          <div>
+            <ul class="list">
+              <li class="list__item">
+                <img src="photo/galka.svg" alt="" class="list__img" />
+                <p>Free evaluation of your case</p>
+              </li>
+              <li class="list__item">
+                <img src="photo/galka.svg" alt="" class="list__img" />
+                <p>Success Based Remuneration</p>
+              </li>
+              <li class="list__item">
+                <img src="photo/galka.svg" alt="" class="list__img" />
+                <p>Service agreement in compliant with EU and US Law</p>
+              </li>
+            </ul>
           </div>
         </div>
-
-
-
+          <div class="container_8_askcard">
+            <img id="steps" src="photo/steps.svg" alt="steps" />
+            <h5>What wallet is it?</h5>
+            <div class="container_8_button_grid">
+              <button>Bitcoin</button>
+              <button>Ethereum (ERC-20)</button>
+              <button>Dogecoin</button>
+              <button>Other</button>
+            </div>
+          </div>
+        </section>
+        <section class="container_9">
+          <div class="contacts">
+            <img
+              class="contacts_avatar"
+              src="photo/contacts_avatar.svg"
+              alt=""
+            />
+            <div class="contacts_info">
+              <h5>Get in touch!</h5>
+              <p class="contacts_1">Your contact - Bastian Knaf</p>
+              <div class="contacts_line">
+                <div id="contacts_upper" class="contacts_ref">
+                  <img src="photo/contacts_email.svg" alt="" />
+                  <a href="team@rewallet.de">team@rewallet.de</a>
+                </div>
+                <div class="contacts_ref">
+                  <img src="photo/contacts_phone.svg" alt="" />
+                  <a href="">+49 (0) 30 2359 13270</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+   
+      </main>
+      <footer>
+        <div class="upper_footer">
+          <div class="footer_column">
+            <h4>ReWallet</h4>
+            <div class="grid_footer_1">
+              <a href="">Why ReWallet?</a>
+              <a href="">About us</a>
+              <a href="">How does it work</a>
+              <a href="">FAQ</a>
+              <a href="">Wallets</a>
+              <a href="">Blog</a>
+              <a href="">Imprint</a>
+              <a href="">Privacy Policy</a>
+            </div>
+          </div>
+          <img
+            class="footer_raiting"
+            src="photo/Trustpilot Rating.svg"
+            alt=""
+          />
         </div>
-
-        <button class="container_6_button">See more articles</button>
-      </section>
-    </main>
+        <hr class="footer_line" />
+        <div class="footer_right">
+          <div class="footer_left_photo">
+            <img src="photo/made_In_germany.svg" alt="" />
+            <img
+              class="footer_right_photo"
+              src="photo/blockchain_bund.svg"
+              alt=""
+            />
+          </div>
+          <p>© Copyright 2023 ReWallet</p>
+        
+          <div class="footer_contacts_img">
+            <img src="photo/twitter.svg" alt="">
+            <img src="photo/insta.svg" alt="">
+            <img src="photo/instagram.svg" alt="">
+          </div>
+        
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
