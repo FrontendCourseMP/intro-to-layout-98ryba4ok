@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style_form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="fix_width">
+          <h1 class="logo">ReWallet</h1>
+          <nav class="nav_hidden">
+            <a href="index.html#Why_ReWallet?"> Why ReWallet? </a>
+            <a href="index.html#About_us">About us</a>
+            <a href="index.html#How_does_it_work">How does it work</a>
+            <a href="index.html#FAQ">FAQ</a>
+            <a href="index.html#wallets_url">Wallets</a>
+            <a href="index.html#blog_url">Blog</a>
+          </nav>
+          <div class="header_right">
+            <div class="language">
+              <button class="lang_button">
+                <img src="photo/language_icon.svg" alt="" />
+                English
+              </button>
+              <button class="start_now">Start now</button>
+            </div>
+          </div>
+          <img class="nav_button" src="photo/nav_button.svg" alt="nav_button" />
+        </div>
+      </header>
+      <main>
+        <form action="//httpbin.org/post" method="post">
+          <fieldset class="form_part_1">
+            <legend>Personal Information</legend>
+            <div>
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div>
+              <label for="birthdate">Date of Birth:</label>
+              <input type="date" id="birthdate" name="birthdate" required />
+            </div>
+            <div>
+              <label for="gender">Gender:</label>
+              <select id="gender" name="gender" required>
+                <option value="">Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div>
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter password"
+                required
+              />
+            </div>
+          </fieldset>
+          <fieldset class="form_part_1">
+            <legend>Contact details</legend>
+            <div>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@mail.com"
+                required
+              />
+            </div>
+            <div>
+              <label for="phone">Phone number:</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+7 (___) ___-__-__"
+                required
+              />
+            </div>
+            <div>
+              <label for="contact-time"
+                >Convenient communication interval:</label
+              >
+              <select id="contact-time" name="contact-time">
+                <option value="morning">Morning</option>
+                <option value="day">Day</option>
+                <option value="evening">Evening</option>
+                <option value="night">Night</option>
+              </select>
+            </div>
+          </fieldset>
+          <div class="buttons_form">
+            <button type="submit">
+              Send <img src="photo/send.png" alt="Отправить" />
+            </button>
+            <button type="reset">
+              Reset <img src="photo/reset.png" alt="Сбросить" />
+            </button>
+          </div>
+        </form>
+      </main>
+
+      <footer>
+        <div class="fix_footer">
+          <div class="upper_footer">
+            <div class="footer_column">
+              <h2>ReWallet</h2>
+              <div class="grid_footer_1">
+                <a href="index.html#Why_ReWallet?">Why ReWallet?</a>
+                <a href="index.html#About_us">About us</a>
+                <a href="index.html#How_does_it_work">How does it work</a>
+                <a href="index.html#FAQ">FAQ</a>
+                <a href="index.html#wallets_url">Wallets</a>
+                <a href="index.html#blog_url">Blog</a>
+                <a href="" class="mobile_hidden">Imprint</a>
+                <a href="" class="mobile_hidden">Privacy Policy</a>
+                <a href="index.html">Сайт</a>
+              </div>
+            </div>
+            <img
+              class="footer_raiting"
+              src="photo/Trustpilot_Rating.png"
+              alt=""
+            />
+          </div>
+          <hr class="footer_line" />
+          <div class="footer_right">
+            <div class="footer_left_photo">
+              <img src="photo/made_in_germany.png" alt="" />
+              <img
+                class="footer_right_photo"
+                src="photo/Bundesblock.png"
+                alt=""
+              />
+            </div>
+            <p>© Copyright 2023 ReWallet</p>
+
+            <div class="footer_contacts_img">
+              <img src="photo/twitter.svg" alt="" />
+              <img src="photo/insta.svg" alt="" />
+              <img src="photo/instagram.svg" alt="" />
+            </div>
+            <div class="pc_hidden">
+              <a href="#">Imprint</a>
+              <a href="#">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
